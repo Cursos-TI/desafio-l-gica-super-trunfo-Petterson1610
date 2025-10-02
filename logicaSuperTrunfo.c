@@ -298,12 +298,12 @@ int main() {
         printf("+---------------------------------------------------------------+\n");
         
         if (soma_atributos_carta1 == soma_atributos_carta2){
-            printf("Empate entre as cidades de %s e %s!", nome_da_cidade1, nome_da_cidade2);
+            printf("Empate entre as cidades de %s e %s!\n", nome_da_cidade1, nome_da_cidade2);
         }else {
             if(soma_atributos_carta1 > soma_atributos_carta2){
-                printf("%s foi a vencedora!", nome_da_cidade1);
+                printf("%s foi a vencedora!\n", nome_da_cidade1);
             }else{
-                printf("%s foi a vencedora!", nome_da_cidade2);
+                printf("%s foi a vencedora!\n", nome_da_cidade2);
             }
         }
     }
